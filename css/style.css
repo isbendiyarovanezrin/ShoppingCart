@@ -1,12 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .cards {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     width: 1220px;
     margin: 0 auto;
+
 }
 
 .card {
-    height: 150px;
-    border: 1px solid gray;
+  height: 150px;
+  border: 1px solid gray;
 }
