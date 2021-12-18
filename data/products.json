@@ -1,19 +1,20 @@
-[{
-        "id": 1,
-        "name": "Phone",
-        "detail": "Mehsul haqqinda detalli melumat 1",
-        "price": 1200
-    },
-    {
-        "id": 2,
-        "name": "TV",
-        "detail": "Mehsul haqqinda detalli melumat 2",
-        "price": 2000
-    },
-    {
-        "id": 3,
-        "name": "Notebook",
-        "detail": "Mehsul haqqinda detalli melumat 3",
-        "price": 1500
-    }
+[
+  {
+    "id": 1,
+    "name": "Phone",
+    "detail": "Mehsul haqqinda detalli melumat 1",
+    "price": 1200
+  },
+  {
+    "id": 2,
+    "name": "TV",
+    "detail": "Mehsul haqqinda detalli melumat 2",
+    "price": 2000
+  },
+  {
+    "id": 3,
+    "name": "Notebook",
+    "detail": "Mehsul haqqinda detalli melumat 3",
+    "price": 1500
+  }
 ]
