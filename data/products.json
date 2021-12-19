@@ -1,20 +1,33 @@
 [
   {
     "id": 1,
-    "name": "Phone",
-    "detail": "Mehsul haqqinda detalli melumat 1",
-    "price": 1200
+    "name": "Frontend Angular",
+    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+    "price": "€12.49",
+    "imgSrc": "images/book.png"
   },
+
   {
     "id": 2,
-    "name": "TV",
-    "detail": "Mehsul haqqinda detalli melumat 2",
-    "price": 2000
+    "name": "Rino Gaetano",
+    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+    "price": "€14.49",
+    "imgSrc": "images/cd.png"
   },
+
   {
     "id": 3,
-    "name": "Notebook",
-    "detail": "Mehsul haqqinda detalli melumat 3",
-    "price": 1500
+    "name": "Chocolate bar",
+    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+    "price": "€0.85",
+    "imgSrc": "images/choco_bar.png"
+  },
+
+  {
+    "id": 4,
+    "name": "Box of Ferrero",
+    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+    "price": "€11.85",
+    "imgSrc": "images/ferrero.png"
   }
 ]
