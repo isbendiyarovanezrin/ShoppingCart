@@ -1,33 +1,165 @@
 [
   {
-    "id": 1,
-    "name": "Frontend Angular",
-    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
-    "price": "€12.49",
-    "imgSrc": "images/book.png"
+    "filter_id": 1,
+    "filter_name": "All categories",
+    "products": [
+      {
+        "id": 11,
+        "name": "Frontend Angular",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€12.49",
+        "imgSrc": "images/book.png"
+      },
+
+      {
+        "id": 12,
+        "name": "Rino Gaetano",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€14.49",
+        "imgSrc": "images/cd.png"
+      },
+
+      {
+        "id": 13,
+        "name": "Chocolate bar",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€0.85",
+        "imgSrc": "images/choco_bar.png"
+      },
+
+      {
+        "id": 14,
+        "name": "Box of Ferrero",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€11.85",
+        "imgSrc": "images/ferrero.png"
+      },
+
+      {
+        "id": 15,
+        "name": "Noir Bottle",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€49.90",
+        "imgSrc": "images/noir.png"
+      },
+
+      {
+        "id": 16,
+        "name": "Armani Bottle",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€29.39",
+        "imgSrc": "images/armani.png"
+      },
+
+      {
+        "id": 17,
+        "name": "D&G Bottle",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€18.99",
+        "imgSrc": "images/d_g.png"
+      },
+
+      {
+        "id": 18,
+        "name": "Headache pills",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€9.75",
+        "imgSrc": "images/pills.png"
+      }
+    ]
   },
 
   {
-    "id": 2,
-    "name": "Rino Gaetano",
-    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
-    "price": "€14.49",
-    "imgSrc": "images/cd.png"
+    "filter_id": 2,
+    "filter_name": "Book",
+    "products": [
+      {
+        "id": 19,
+        "name": "Frontend Angular",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€12.49",
+        "imgSrc": "images/book.png"
+      },
+
+      {
+        "id": 20,
+        "name": "D&G Bottle",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€18.99",
+        "imgSrc": "images/d_g.png"
+      }
+    ]
   },
 
   {
-    "id": 3,
-    "name": "Chocolate bar",
-    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
-    "price": "€0.85",
-    "imgSrc": "images/choco_bar.png"
+    "filter_id": 3,
+    "filter_name": "Music",
+    "products": [
+      {
+        "id": 21,
+        "name": "Rino Gaetano",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€14.49",
+        "imgSrc": "images/cd.png"
+      }
+    ]
   },
 
   {
-    "id": 4,
-    "name": "Box of Ferrero",
-    "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
-    "price": "€11.85",
-    "imgSrc": "images/ferrero.png"
+    "filter_id": 4,
+    "filter_name": "Food",
+    "products": [
+      {
+        "id": 22,
+        "name": "Chocolate bar",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€0.85",
+        "imgSrc": "images/choco_bar.png"
+      },
+
+      {
+        "id": 23,
+        "name": "Box of Ferrero",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€11.85",
+        "imgSrc": "images/ferrero.png"
+      }
+    ]
+  },
+
+  {
+    "filter_id": 5,
+    "filter_name": "Perfume",
+    "products": [
+      {
+        "id": 24,
+        "name": "Noir Bottle",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€49.90",
+        "imgSrc": "images/noir.png"
+      },
+
+      {
+        "id": 25,
+        "name": "Armani Bottle",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€29.39",
+        "imgSrc": "images/armani.png"
+      }
+    ]
+  },
+
+  {
+    "filter_id": 6,
+    "filter_name": "Medical",
+    "products": [
+      {
+        "id": 26,
+        "name": "Headache pills",
+        "detail": "There are many variations of passages of Lorem Ipsum avaable, b majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. make an ami jani na.",
+        "price": "€9.75",
+        "imgSrc": "images/pills.png"
+      }
+    ]
   }
 ]
