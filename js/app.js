@@ -1,3 +1,5 @@
+"use strict";
+
 let productList = document.querySelector(".product-list");
 
 function loadJson() {
