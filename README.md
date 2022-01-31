@@ -4,6 +4,6 @@ You can view the project [here](https://isbendiyarovanezrin.github.io/ShoppingCa
 
 ##### Preview
 
-![Shopping Cart](https://i.postimg.cc/k5TCJCLf/cart.gif)
+![Shopping Cart](https://i.postimg.cc/T3B5Z02V/cart.gif)
 
 </div>
