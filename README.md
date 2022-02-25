@@ -1,8 +1,10 @@
 <div align="center">
+  
+#### Shopping Cart🛒
 
-You can view the project [here](https://isbendiyarovanezrin.github.io/ShoppingCart "Click me!🛒").
+##### You can view the project [**here**](https://isbendiyarovanezrin.github.io/ShoppingCart "Click me!🛒").
 
-##### Preview
+###### Preview
 
 ![Shopping Cart](https://i.postimg.cc/T3B5Z02V/cart.gif)
 
