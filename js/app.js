@@ -59,9 +59,15 @@ function categoryFilter(id) {
   fetch("data/products.json")
     .then((responce) => responce.json())
     .then((data) => {
-      let products = document.querySelector(".products");
+      const buttons = document.querySelectorAll(".filter-option");
+      buttons.forEach((button) => {
+        button.style.color = "var(--secondary-color)";
+      });
+      buttons[id - 1].style.color = "var(--red-color)";
+
+      const products = document.querySelector(".product-list");
       products.innerHTML = "";
-      for (let category of data) {
+      for (const category of data) {
         if (category.filter_id == id) {
           category.products.forEach((element) => {
             products.innerHTML += productView(element);
