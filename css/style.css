@@ -107,11 +107,6 @@ p {
   justify-content: flex-end;
 }
 
-.navbar-right a {
-  display: flex;
-  align-items: center;
-}
-
 .navbar-p {
   font-weight: 600;
   color: var(--secondary-color);
@@ -132,16 +127,8 @@ button {
   background-color: transparent;
 }
 
-.number {
-  font-weight: 700;
-}
-
 .shopping-cart-img {
   width: 4rem;
-}
-
-.arrow-img {
-  width: 2rem;
 }
 
 /* filter */
@@ -154,13 +141,13 @@ button {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.4rem;
-  padding: 5rem 2rem;
+  margin: 5rem 2rem;
   color: var(--secondary-color);
   font-family: var(--font-family);
 }
 
 .filter-option:hover {
-  color: var(--grey-color);
+  color: var(--grey-color) !important;
 }
 
 .filter-option:active {
