@@ -1,12 +1,12 @@
 "use strict";
 
-let productList = document.querySelector(".product-list");
+const productList = document.querySelector(".product-list");
 
 function loadJson() {
   fetch("data/products.json")
     .then((responce) => responce.json())
     .then((data) => {
-      let categories = document.querySelector(".filters");
+      const categories = document.querySelector(".filters");
       let item = "";
       data.forEach((element) => {
         if (element.filter_name == "All categories") {
