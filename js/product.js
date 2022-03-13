@@ -6,9 +6,9 @@ function loadJson() {
   fetch("data/products.json")
     .then((responce) => responce.json())
     .then((data) => {
-      let id = new URLSearchParams(window.location.search).get("id");
-      for (let filter of data) {
-        for (let product of filter.products) {
+      const id = new URLSearchParams(window.location.search).get("id");
+      for (const filter of data) {
+        for (const product of filter.products) {
           if (product.id == id) {
             productDetail.innerHTML += `
             <div class="row product-detail-item" data="${product.id}">
