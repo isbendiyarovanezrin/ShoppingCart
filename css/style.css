@@ -1,4 +1,4 @@
-/* variables */
+/* variables start */
 :root {
   --primary-color: #212529;
   --secondary-color: #465e6a;
@@ -17,39 +17,9 @@
   --shadow-color: #00000033;
   --font-family: Poppins, sans-serif;
 }
+/* variables end */
 
-/* loader */
-#loadingDiv {
-  width: 100vw;
-  height: 100vh;
-  z-index: 100;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--bg-color);
-}
-
-.loader {
-  width: 9.5rem;
-  height: 9.5rem;
-  background: center / contain no-repeat url(../images/loader.gif);
-}
-
-/* cursor */
-#cursor {
-  position: absolute;
-  border-radius: 50%;
-  width: 1rem;
-  height: 1rem;
-  z-index: 90;
-  transition: 0.1s ease-out;
-  background-color: var(--red-color);
-  pointer-events: none;
-  box-shadow: 0 0 0.2rem var(--pinterest-color);
-}
-
-/* common */
+/* common start */
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -85,8 +55,42 @@ p {
   background-color: var(--red-color);
   color: var(--white-color);
 }
+/* common end */
 
-/* scrollbar */
+/* loader start */
+#loadingDiv {
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.loader {
+  width: 9.5rem;
+  height: 9.5rem;
+  background: center / contain no-repeat url(../images/loader.gif);
+}
+/* loader end */
+
+/* cursor start */
+#cursor {
+  position: absolute;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  z-index: 90;
+  transition: 0.1s ease-out;
+  background-color: var(--red-color);
+  pointer-events: none;
+  box-shadow: 0 0 0.2rem var(--pinterest-color);
+}
+/* cursor end */
+
+/* scrollbar start */
 ::-webkit-scrollbar {
   width: 1.5rem;
 }
@@ -100,8 +104,9 @@ p {
   background-color: var(--red-color);
   border-radius: 1rem;
 }
+/* scrollbar end */
 
-/* navbar */
+/* navbar start */
 .navbar-right {
   display: flex;
   justify-content: flex-end;
@@ -122,16 +127,12 @@ h1 span,
   color: var(--red-color);
 }
 
-button {
-  display: flex;
-  background-color: transparent;
-}
-
 .shopping-cart-img {
   width: 4rem;
 }
+/* navbar end */
 
-/* filter */
+/* filter start */
 .filters {
   display: flex;
   justify-content: center;
@@ -153,8 +154,60 @@ button {
 .filter-option:active {
   transform: scale(0.98);
 }
+/* filter end */
 
-/* products */
+/* overlay start */
+.overlay {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 80;
+  background-color: var(--overlay-bg-color);
+}
+
+.product-img-box:hover .overlay {
+  visibility: visible;
+  transition: all 0.5s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.overlay-link {
+  right: 1rem;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  border-radius: 50%;
+  border: 0.1rem solid var(--primary-color);
+  padding: 0.8rem;
+}
+
+.overlay-link:hover {
+  background-color: var(--border-color);
+}
+
+.overlay-content-p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.overlay-info {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: var(--primary-color);
+}
+
+img.arrow {
+  transform: rotate(-93deg);
+}
+/* overlay end */
+
+/* products start */
 #product-section {
   margin-bottom: 9rem;
 }
@@ -214,113 +267,13 @@ hr {
   font-size: 1.5rem;
 }
 
-/* overlay */
-.overlay {
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 80;
-  background-color: var(--overlay-bg-color);
-}
-
-.product-img-box:hover .overlay {
-  visibility: visible;
-  transition: all 0.5s cubic-bezier(0.57, 0.21, 0.69, 1.25);
-}
-
-.overlay-link {
-  right: 1rem;
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  border-radius: 50%;
-  border: 0.1rem solid var(--primary-color);
-  padding: 0.8rem;
-}
-
-.overlay-link:hover {
-  background-color: var(--border-color);
-}
-
-.overlay-content-p {
-  font-size: 1.5rem;
-  color: var(--text-color);
-}
-
-.overlay-info {
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 1.7rem;
-  color: var(--primary-color);
-}
-
-img.arrow {
-  transform: rotate(-93deg);
-}
-
-/* footer */
-.footer-img {
-  width: 5rem;
-}
-
-.car-img {
-  width: 6rem;
-}
-
-.pay-img {
-  width: 30%;
-}
-
-.footer-top,
-.footer-bottom {
-  padding: 4rem 12rem;
-}
-
-.footer-top {
-  background-color: var(--footer-bg-color);
-}
-
-.footer-bottom {
-  justify-content: space-between;
-  padding: 2rem 12rem;
-}
-
-.footer-item {
+button {
   display: flex;
+  background-color: transparent;
 }
+/* products end */
 
-.footer-p {
-  font-size: 1.3rem;
-}
-
-.footer-bottom-left-box {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.footer-bottom-right-box {
-  text-align: end;
-}
-
-.footer-item-content {
-  margin: 0 auto;
-}
-
-.footer-item-content h3 {
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  color: var(--text-color);
-  padding-bottom: 1rem;
-}
-
-/* product details */
+/* product details start */
 .product-detail-item {
   display: flex;
   margin-bottom: 8rem;
@@ -405,8 +358,66 @@ img.arrow {
 .pinterest {
   background-color: var(--pinterest-color);
 }
+/* product details end */
 
-/* media queries */
+/* footer start */
+.footer-img {
+  width: 5rem;
+}
+
+.car-img {
+  width: 6rem;
+}
+
+.pay-img {
+  width: 30%;
+}
+
+.footer-top,
+.footer-bottom {
+  padding: 4rem 12rem;
+}
+
+.footer-top {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-bottom {
+  justify-content: space-between;
+  padding: 2rem 12rem;
+}
+
+.footer-item {
+  display: flex;
+}
+
+.footer-p {
+  font-size: 1.3rem;
+}
+
+.footer-bottom-left-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-right-box {
+  text-align: end;
+}
+
+.footer-item-content {
+  margin: 0 auto;
+}
+
+.footer-item-content h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--text-color);
+  padding-bottom: 1rem;
+}
+/* footer end */
+
+/* media queries start */
 @media screen and (max-width: 1600px) {
   .product-item {
     margin: 0 auto 0.5rem;
@@ -481,3 +492,4 @@ img.arrow {
     font-size: 3px;
   }
 }
+/* media queries end */
