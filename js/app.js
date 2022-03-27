@@ -37,11 +37,11 @@ function productView(product) {
        <img src="${product.imgSrc}" alt="product image" class="product-img" />
        <div class="overlay">
          <a class="overlay-link" href="product.html?id=${product.id}">
-           <img src="images/arrow.png" alt="arrow" class="arrow" />
+           <img src="images/arrow.png" alt="arrow" class="arrow-img" />
          </a>
          <div class="overlay-info">
-           <p class="overlay-content-p">Design | Branding</p>
-           <h2 class="text-center">Creative Web Design</h2>
+           <p>Design | Branding</p>
+           <h2>Creative Web Design</h2>
          </div>
        </div>
        <p class="num-box"></p>
