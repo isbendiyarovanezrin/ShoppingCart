@@ -470,7 +470,7 @@ button {
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 4px;
+    font-size: 4.1px;
   }
 
   .footer-item {
@@ -485,12 +485,6 @@ button {
   .footer-top {
     display: block;
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 340px) {
-  html {
-    font-size: 3px;
   }
 }
 /* media queries end */
