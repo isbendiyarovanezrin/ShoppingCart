@@ -186,23 +186,23 @@ h1 span,
   background-color: var(--border-color);
 }
 
-.overlay-content-p {
-  font-size: 1.5rem;
-  color: var(--text-color);
-}
-
 .overlay-info {
   position: absolute;
   bottom: 0;
   padding-bottom: 1.5rem;
 }
 
-h2 {
+.overlay-info p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.overlay-info h2 {
   font-size: 1.7rem;
   color: var(--primary-color);
 }
 
-img.arrow {
+.arrow-img {
   transform: rotate(-93deg);
 }
 /* overlay end */
