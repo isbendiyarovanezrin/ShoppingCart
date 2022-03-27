@@ -26,7 +26,7 @@ loadJson();
 
 function categoryView(category) {
   return `
-  <button class="filter-option" onclick="categoryFilter(${category.filter_id})">${category.filter_name}</button>
+  <button type="button" class="filter-option" onclick="categoryFilter(${category.filter_id})">${category.filter_name}</button>
   `;
 }
 
