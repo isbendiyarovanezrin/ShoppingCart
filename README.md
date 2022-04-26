@@ -4,7 +4,7 @@
 
 ## About
 
-"Shopping Cart" project built with HTML5, CSS3 and JavaScript. You can view the project [**here**](https://isbendiyarovanezrin.github.io/ShoppingCart "Click me!🛒").
+"Shopping Cart" project built with HTML5, CSS3, jQuery and JavaScript. You can view the project [**here**](https://isbendiyarovanezrin.github.io/ShoppingCart "Click me!🛒").
 
 ## Contributing
 
